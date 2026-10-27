@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hotel Booking Form</title>
+</head>
+<body bgcolor="lavender">
+    <table border="5" width="500" height="400" align="center" bgcolor="white">
+        <thead>
+            <tr>
+                <th colspan="2" align="center" bgcolor="lightblue">
+                    <h2>HOTEL BOOKING FORM - STUDENT PORTAL</h2>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Full Name:</th>
+                <td><input type="text" placeholder="John Doe" size="30"></td>
+            </tr>
+            <tr>
+                <th>Email ID:</th>
+                <td><input type="email" placeholder="johndoe@example.com" size="30"></td>
+            </tr>
+            <tr>
+                <th>Phone Number:</th>
+                <td><input type="tel" placeholder="918080808040" size="30"></td>
+            </tr>
+            <tr>
+                <th>Check-In Date:</th>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <th>Check-Out Date:</th>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <th>Room Type:</th>
+                <td>
+                    <select>
+                        <option>Single Room</option>
+                        <option>Double Room</option>
+                        <option>Deluxe Room</option>
+                        <option>Suite</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Total Guests:</th>
+                <td><input type="number" value="1" min="1"></td>
+            </tr>
+            <tr>
+                <th>Special Request:</th>
+                <td>
+                    <textarea rows="4" cols="30" placeholder="Any extra requirements..."></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="checkbox" checked> I agree to the Terms & Conditions
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <button type="submit"><b>Book Now</b></button>
+                    <button type="reset"><b>Reset Form</b></button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

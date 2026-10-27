@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body>
+    <form action="thank_you.html" method = "get" name = "Registration">
+        <!-- method = "get(data is visible)/ post(Data is invisible, name = access form)" -->
+        <label for="Name">Name</label> 
+        <input type="text" id = "Name"  name = "Username"  placeholder="swasti" required>
+        <!-- Because name is a mandatory field -->
+        <br>
+        <label for="email">email</label>
+        <input type=" email" id = "email"  name = "email" value = "xyz123@gmail.com" required>
+        <!-- Because email is a mandatory field -->
+        <br>
+        <label for="phone">Phone</label>
+        <input type="number" name="" id="phone" minlength="10" maxlength="12" name = "Phone">
+        <!-- For validation -->
+        <br>
+        <!-- For printing in different lines us br tag -->
+         <!-- Gender -->
+          <p>Gender :</p>
+         <label for="Gender">Male</label>
+         <input type="radio" > 
+         <!-- To check the option beforehand -->
+         <label for="Gender">Female</label>
+         <input type="radio" checked>
+         <!-- if we want to add password then type will be password -->
+          <input type="Submit" value = "Signup">
+    </form>
+</body>
+</html>
